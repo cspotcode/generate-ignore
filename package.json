@@ -1,6 +1,6 @@
 {
   "name": "generate-ignore",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Automatically generate .npmignore and other .*ignore files from .gitignore",
   "bin": {
     "generate-ignore": "lib/cli.js"
