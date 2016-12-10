@@ -1,0 +1,20 @@
+# Generate .npmignore and .dockerignore files
+##<generate npm docker />
+
+.vscode/symbols.json
+
+# These files should be excluded from git, but not from npm or docker
+##<for git>
+lib
+.npmignore
+##</for>
+
+# These files are committed to version control but should be ignored by docker and npm
+##<for npm docker>
+##tsconfig.json
+##</for>
+
+# Ignored by everyone except docker
+##<for npm git>
+node_modules
+##</for>

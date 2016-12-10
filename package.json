@@ -7,8 +7,10 @@
   },
   "main": "lib/index.js",
   "scripts": {
-    "compile": "tsc -p .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "nsh scripts/build",
+    "clean": "nsh scripts/clean",
+    "test": "nsh scripts/test",
+    "prepublishOnly": "nsh scripts/prepublishOnly"
   },
   "repository": {
     "type": "git",
@@ -32,6 +34,7 @@
   },
   "homepage": "https://github.com/cspotcode/generate-ignore#readme",
   "devDependencies": {
+    "@cspotcode/nsh": "0.0.4",
     "@types/node": "0.0.2",
     "typescript": "^2.1.4"
   }

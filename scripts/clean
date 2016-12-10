@@ -1,0 +1,3 @@
+rm examples/.dockerignore
+rm examples/.npmignore
+rm -rf lib

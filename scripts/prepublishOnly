@@ -1,0 +1,2 @@
+nsh ./scripts/clean
+nsh ./scripts/build
