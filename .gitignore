@@ -1,0 +1,14 @@
+##<generate npm />
+
+node_modules
+.vscode/symbols.json
+
+##<for git>
+lib
+.npmignore
+##</for>
+
+##<for npm>
+##tsconfig.json
+##.vscode
+##</for>

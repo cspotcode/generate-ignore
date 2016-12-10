@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "lib",
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "alwaysStrict": true,
+    "forceConsistentCasingInFileNames": true,
+    // If the project gets bigger, consider setting this `true`
+    "importHelpers": false
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

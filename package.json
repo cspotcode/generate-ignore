@@ -1,0 +1,38 @@
+{
+  "name": "generate-ignore",
+  "version": "0.0.1",
+  "description": "Automatically generate .npmignore and other .*ignore files from .gitignore",
+  "bin": {
+    "generate-ignore": "lib/cli.js"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "compile": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cspotcode/generate-ignore.git"
+  },
+  "keywords": [
+    "ignore",
+    ".npmignore",
+    "npmignore",
+    ".gitignore",
+    "gitignore"
+  ],
+  "author": {
+    "name": "Andrew Bradley",
+    "email": "cspotcode@gmail.com",
+    "url": "http://www.cspotcode.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cspotcode/generate-ignore/issues"
+  },
+  "homepage": "https://github.com/cspotcode/generate-ignore#readme",
+  "devDependencies": {
+    "@types/node": "0.0.2",
+    "typescript": "^2.1.4"
+  }
+}
