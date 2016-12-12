@@ -1,8 +1,10 @@
+# generate-ignore
+
 Generate `.npmignore`, `.dockerignore`, and any other `.*ignore` files from a single `.gitignore`.  This avoid repetition and keeps things DRY.
 
-# Usage
+## Usage
 
-Install:
+Install via npm:
 
     npm install -g generate-ignore
 
@@ -26,13 +28,14 @@ lib
 ##</for>
 ```
 
-Run this tool from the same directory:
+Run generate-ignore from the same directory:
 
     generate-ignore
 
 The first line, `##<generate ... />`, tells the tool to create a .npmignore file.
-The `##<for>` and `##</for>` delimeters tell the tool to comment or uncomment those lines
-in the appropriate .ignore files.
+The `##<for>` and `##</for>` delimeters tell generate-ignore to comment or uncomment those lines
+in the appropriate .ignore files.  For example, `##<for foo bar>` means that the ignore rules are for .fooignore and .barignore.
+In all other .*ignore files they will be commented out.
 
 Our example above generates the following `.npmignore`:
 
