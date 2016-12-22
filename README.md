@@ -1,6 +1,6 @@
 # generate-ignore
 
-Generate `.npmignore`, `.dockerignore`, and any other `.*ignore` files from a single `.gitignore`.  This avoid repetition and keeps things DRY.
+Generate `.npmignore`, `.dockerignore`, and any other `.*ignore` files from a single `.gitignore`.  This avoids repetition and keeps things DRY.
 
 ## Usage
 
